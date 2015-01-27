@@ -1,0 +1,22 @@
+
+1. What is the difference between an API and a server?
+
+	APIs are application program interfaces. They can provide protocols, routines and data which can be utilized as the building blocks of an application.  Servers are used to route requests and responses for an application (for example, via HTTP or websockets). This response can sometimes be an API itself.
+	
+2. What does a DNS server do when you type "www.google.com" into an address bar?
+
+	Domain Name Service servers cross-reference IP addresses (most likely stored in their database) with the provided text url, such as "www.google.com" in this example, and redirect the request to the associated IP address (which could be hosting a server elsewhere).
+	
+
+3. What are some differences between a single page application and a multipage application? List one example of each.
+
+	Single page applications are exactly that. They serve up the markup in one request and then can utilize AJAX calls, APIs & JSON data to provide fast and interactive experience for the user without refreshing the whole page (utilizing javascript usually on the client side to manipulate the document). One of the most used applications on the internet, Gmail, is a great example of a single page app. 
+	Multipage applications are better suited when there's a lot of content as the rendering of each page will require a refresh. Wikipedia is a great example here.
+	
+4. Why do we use RESTful routes?
+
+	REST stands for Representational State Transfer, which is just a style of creating web services. RESTful routing allows everyone utilizing the standard to coordinate better. This way, terms like GET, PUT, POST, DELETE are standardized, and routing APIs is easier and more intuitive for developers.
+
+5. What is an API key and why are they used?
+
+	API Keys are identifiers which allow for limiting and monitoring of API usage. Without an API key the unlimited calls to an API could potentially bring down the server. Also monitoring the usage allows for improvement as well as limit usage when utilized in a way it might not have been intended for (or competing with it's own business for example.) Such as creating a google maps competitor... with the google maps api...
